@@ -14,8 +14,7 @@
     margin-top: 50px;
     margin-right: 200px;
     margin-left: 200px;
-    align-items: center;
-    justify-content: center;
+
 
 
 }
@@ -23,7 +22,7 @@
 .happy-new-year {
     color: #FFF;
     text-align: center;
-    font-family:  'Merriweather', serif;
+    font-family: 'Merriweather', serif;
 
 }
 
@@ -96,7 +95,7 @@
 
 .welcome-part-heading {
     color: #FFF;
-    font-family:  'Merriweather', serif;
+    font-family: 'Merriweather', serif;
 
     font-size: 64px;
     font-weight: 900;
@@ -115,16 +114,178 @@
     padding-bottom: 48px;
 }
 
-.welcome-part-button{
+.welcome-part-button {
     padding-left: 158px;
-    
+
 
 }
-.welcome-part-button-text{
+
+.welcome-part-button-text {
     color: #FFF;
     padding: 10px;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
     background: transparent;
+}
+
+.place-date-time-section {
+    background-color: rgba(255, 0, 0, 0.10);
+    margin-top: 120px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.place-date-time-section-header1 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.place-date-time-section-header2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.place-date-time-section-header3 {
+    text-align: center;
+    padding-top: 10px;
+    /* padding-bottom: 214px; */
+}
+
+.place-date-time-section>h1>span {
+    color: red;
+}
+
+.place-date-time-section-button {
+    align-items: center;
+    text-align: center;
+    margin: 64px;
+    padding-bottom: 126px;
+}
+
+.place-date-time-section-button-text {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    background: #F00;
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.coming-soon-section {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
+    margin-top: 120px;
+
+}
+
+.ellipse-img {
+    border: 15px solid #F00;
+    border-radius: 100%;
+    padding: 40px;
+    margin-right: 40px;
+
+
+}
+
+.coming-soon-section>div>h3 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.coming-soon-section>div>h2 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.comming-soon-para {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 70px;
+
+}
+
+.coming-soon-section>div>h1 {
+    color: #F00;
+    margin-bottom: 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.group-96 {
+    margin-top: 43px;
+
+}
+
+.holiday-sale-section>h4 {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 120px;
+
+}
+
+.holiday-sale-section>h1 {
+    color: #F00;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.holiday-sale-section>h1>span {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.holiday-sale-section>p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+/* .rectangle-img{
+    margin-top: 400px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-image: url("../icons/Rectangle\ 2.png"), url("../icons/Group\ 44.png"),url(../images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: bottom, top right, top right;
+} */
+
+.rectangle-img {
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background-color: #F00;
+    margin-top: 497px; 
+    margin-left: 200px;
+    background-image: url("../images/Rectangle\ 1.png");
+    background-repeat: no-repeat;
+    background-position: right top
 }
