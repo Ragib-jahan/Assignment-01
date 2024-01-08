@@ -14,6 +14,7 @@
     margin-top: 50px;
     margin-right: 200px;
     margin-left: 200px;
+    background-position: center;
 
 
 
@@ -269,23 +270,71 @@
     margin-right: 350px;
 }
 
-/* .rectangle-img{
-    margin-top: 400px;
-    margin-left: 200px;
-    margin-right: 200px;
-    background-image: url("../icons/Rectangle\ 2.png"), url("../icons/Group\ 44.png"),url(../images/Rectangle\ 1.png);
-    background-repeat: no-repeat;
-    background-position: bottom, top right, top right;
-} */
-
-.rectangle-img {
+.red-bordar {
     width: 1320px;
     height: 229px;
     border-radius: 16px 0px 16px 16px;
     background-color: #F00;
-    margin-top: 497px; 
+    /* margin-top: 497px;  */
     margin-left: 200px;
+
+
+}
+
+.group-75 {
+    width: 550px;
+
+}
+
+.rectangle-img {
+    display: flex;
+    justify-content: end;
     background-image: url("../images/Rectangle\ 1.png");
     background-repeat: no-repeat;
-    background-position: right top
+    background-position: top right;
+    margin-right: 167px;
+    margin-top: 64px;
+
+
+
+}
+
+.group-44 {
+    width: 300px;
+    height: 300px;
+    margin-top: 80px;
+    margin-right: 300px;
+
+}
+
+/* Portfolio-setion */
+.Portfolio-setion>h2 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 120px;
+    margin-left: 200px;
+    margin-bottom: 16px;
+
+}
+
+.Portfolio-setion>h1 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-left: 200px;
+}
+
+.Portfolio-setion>p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 22px;
+    margin-bottom: 48px;
+    margin-left: 200px;
+    width: 800px;
+
 }
